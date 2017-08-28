@@ -17,8 +17,8 @@ namespace DelegatesExample
             var SetMarketingInfo = new Dictionary<string, Func<string>>()
             {
                 { ProductType.Ultrabook.ToString(), () => UltrabookInfo() },
-                { ProductType.Keyboard.ToString(), () => UltrabookInfo() },
-                { ProductType.Headsets.ToString(), () => UltrabookInfo() }
+                { ProductType.Keyboard.ToString(), () => KeyboardInfo() },
+                { ProductType.Headsets.ToString(), () => HeadsetInfo() }
             };
 
 
