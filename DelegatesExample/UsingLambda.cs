@@ -2,7 +2,7 @@
 
 namespace DelegatesExample
 {
-    class Usingalambda
+    class UsingLambda
     {
         static void Main(string[] args)
         {
