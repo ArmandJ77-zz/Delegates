@@ -2,7 +2,7 @@
 
 namespace DelegatesExample
 {
-    class BasicAction
+    class BasicActionDelegate
     {
         static void Main(string[] args)
         {
